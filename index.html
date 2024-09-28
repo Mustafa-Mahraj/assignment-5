@@ -11,31 +11,33 @@
 </head>
 
 <body>
-    <header class="bg-[#faf8f5] p-7 pb-14">
+    <header class="sticky top-0 bg-[#ffffffd0] pb-4">
         <!-- Navbar section -->
-        <nav class="max-w-screen-xl mx-auto flex justify-between mt">
-            <button class="btn  bg-[#b5f562] py-2 px-8 text-black text-xl font-semibold rounded-xl">Blog</button>
-            <div class="hidden md:flex gap-4 justify-center items-center">
-                <img src="assets/logo.png" alt="">
-                <h3 class="text-black font-semibold text-xl">Donate Bangladesh</h3>
-            </div>
-            <!-- Show Amount section -->
-            <div class="flex gap-3 justify-center items-center bg-[#fcf7ef] p-3 rounded-xl">
-                <img src="assets/coin.png" alt="">
-                <h3 id="current-balance" class="text-xl text-[#414040]">10500 BDT</h3>
+        <nav class="bg-[#faf8f5] p-7 pb-14 ">
+            <div class="max-w-screen-xl mx-auto flex justify-between mt">
+                <button class="btn  bg-[#b5f562] py-2 px-8 text-black text-xl font-semibold rounded-xl">Blog</button>
+                <div class="hidden md:flex gap-4 justify-center items-center">
+                    <img src="assets/logo.png" alt="">
+                    <h3 class="text-black font-semibold text-xl">Donate Bangladesh</h3>
+                </div>
+                <!-- Show Amount section -->
+                <div class="flex gap-3 justify-center items-center bg-[#fcf7ef] p-3 rounded-xl">
+                    <img src="assets/coin.png" alt="">
+                    <h3 id="current-balance" class="text-xl text-[#414040]">10500 BDT</h3>
+                </div>
             </div>
         </nav>
-    </header>
-    <main>
         <!-- show Button section -->
         <section class="flex justify-center mt-28">
             <div>
-                <button id="show-donate-btn" class="btn btn-outline btn-success px-8">Donation</button>
+                <button id="show-donate-btn" class="btn  btn-success px-8 bg-[#00a86d] text-black">Donation</button>
                 <button id="show-history-btn" class="btn btn-outline btn-success px-8">History</button>
             </div>
         </section>
+    </header>
+    <main>
         <!-- Donate Card Section -->
-        <section id="donate-section" class="max-w-screen-xl mx-auto mb-8">
+        <section id="donate-section" class="max-w-screen-xl mx-auto mb-8 p-5 lg:p-0">
             <!-- card: 1, Donate Noakhali -->
             <div class="lg:flex gap-10 p-6 border border-3 rounded-xl mt-7">
                 <img src="assets/noakhali.png" alt="">
@@ -121,6 +123,7 @@
     </footer>
     <script src="JS/donate.js"></script>
     <script src="JS/utilities.js"></script>
+    <script src="JS/toggle.js"></script>
 </body>
 
 </html>
