@@ -19,6 +19,7 @@ document.getElementById('donate-for-noakhali')
             //**** Notification Part ****
             const div = document.createElement('div');
             div.style.border = '1px solid #f2f2f2'
+            div.style.boxShadow = '0px 0px 8px #888888'
             div.style.padding = '20px';
             div.style.borderRadius = '8px';
             div.style.marginBottom = '24px'
@@ -33,7 +34,7 @@ document.getElementById('donate-for-noakhali')
 
         }
         else{
-            alert('Invalid Amount')
+            alert('Invalid Donation Amount, Try again.')
         }
     })
     
@@ -59,6 +60,7 @@ document.getElementById('donate-for-feni')
             //**** Notification Part ****
             const div = document.createElement('div');
             div.style.border = '1px solid #f2f2f2'
+            div.style.boxShadow = '0px 0px 8px #888888'
             div.style.padding = '20px';
             div.style.borderRadius = '8px';
             div.style.marginBottom = '24px'
@@ -73,7 +75,7 @@ document.getElementById('donate-for-feni')
 
         }
         else{
-            alert('Invalid Amount')
+            alert('Invalid Donation Amount, Try again.')
         }
     })
 
@@ -99,6 +101,7 @@ document.getElementById('quota-donate-btn')
             //**** */ Notification Part *****
             const div = document.createElement('div');
             div.style.border = '1px solid #f2f2f2'
+            div.style.boxShadow = '0px 0px 8px #888888'
             div.style.padding = '20px';
             div.style.borderRadius = '8px';
             div.style.marginBottom = '24px'
@@ -112,6 +115,6 @@ document.getElementById('quota-donate-btn')
             div.append(h2, p)
         }
         else{
-            alert('Invalid Amount')
+            alert('Invalid Donation Amount, Try again.')
         }
     })
