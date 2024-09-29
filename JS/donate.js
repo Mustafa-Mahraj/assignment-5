@@ -14,7 +14,7 @@ document.getElementById('donate-for-noakhali')
             const campaignAmount = getCampaignAmount('Campaign-amount');
             const newCampaignAmount = campaignAmount + donateAmount;
             document.getElementById('Campaign-amount').innerText = newCampaignAmount + ' BDT';
-            alert('Congratulation, Your Donate is successfully completed');
+            document.getElementById('popup-modal').showModal();
 
             //**** Notification Part ****
             const div = document.createElement('div');
@@ -54,7 +54,7 @@ document.getElementById('donate-for-feni')
             const campaignAmount = getCampaignAmount('campaign-amount-feni');
             const newCampaignAmount = campaignAmount + donateAmount;
             document.getElementById('campaign-amount-feni').innerText = newCampaignAmount + ' BDT';
-            alert('Congratulation, Your Donate is successfully completed')
+            document.getElementById('popup-modal').showModal();
 
             //**** Notification Part ****
             const div = document.createElement('div');
@@ -94,7 +94,7 @@ document.getElementById('quota-donate-btn')
             const campaignAmount = getCampaignAmount('quota-campaign-amount');
             const newCampaignAmount = campaignAmount + donateAmount;
             document.getElementById('quota-campaign-amount').innerText = newCampaignAmount + ' BDT';
-            alert('Congratulation, Your Donate is successfully completed')
+            document.getElementById('popup-modal').showModal();
 
             //**** */ Notification Part *****
             const div = document.createElement('div');
